@@ -1,0 +1,6 @@
+ping:
+  path: /ping
+  controller: App\Application\Actions\Ping\Ping::action
+new_product:
+  path: /product/new
+  controller: App\Application\Actions\Product\CreateProductAction::action
